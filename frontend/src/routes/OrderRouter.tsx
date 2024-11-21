@@ -1,13 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Service } from "../views/Service";
+import { Order } from "../views/Order";
 
 
-export function ServiceRoute(){
+export function OrderRouter(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/service" element={<Service/>}/>
+                <Route path="/commander" element={<Order/>}/>
             </Routes>
         </BrowserRouter>
     )
 }
+
+
+
+

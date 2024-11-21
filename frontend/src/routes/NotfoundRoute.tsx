@@ -6,7 +6,7 @@ export function NotfoundRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="notfound" element={<Notfound/>}/>
+                <Route path="/notfound" element={<Notfound/>}/>
             </Routes>
         </BrowserRouter>
     )

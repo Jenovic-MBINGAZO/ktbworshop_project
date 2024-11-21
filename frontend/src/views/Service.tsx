@@ -2,6 +2,6 @@
 
 export function Service(){
     return(
-        <div></div>
+        <div>Service</div>
     )
 }

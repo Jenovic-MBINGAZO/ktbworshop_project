@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Service } from "../views/Service";
+import { Contact } from "../views/Contact";
 
 
-export function ServiceRoute(){
+export function ContactRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/service" element={<Service/>}/>
+                <Route path="/contact" element={<Contact/>}/>
             </Routes>
         </BrowserRouter>
     )

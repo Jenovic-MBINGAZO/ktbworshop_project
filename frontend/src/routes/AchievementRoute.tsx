@@ -1,13 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Service } from "../views/Service";
+import { Achievement } from "../views/Achievement";
 
 
-export function ServiceRoute(){
+export function AchievementRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/service" element={<Service/>}/>
+                <Route path="/réalisation" element={<Achievement/>}/>
             </Routes>
         </BrowserRouter>
     )
 }
+
+

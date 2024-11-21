@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Service } from "../views/Service";
+import { About } from "../views/About";
 
 
-export function ServiceRoute(){
+export function AboutRoute(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/service" element={<Service/>}/>
+                <Route path="/a-propos" element={<About/>} /> 
             </Routes>
         </BrowserRouter>
     )
