@@ -1,11 +1,8 @@
-import { HomeRoute } from "./routes/HomeRoute";
+import { AppRouter } from "./routes/AppRouter";
 
- 
  
  export default function App(){
     return(
-        <div>
-            <HomeRoute/>
-        </div>
+        <AppRouter/>
     )
  }
